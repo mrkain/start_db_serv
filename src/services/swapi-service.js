@@ -1,4 +1,4 @@
-class SwapiService {
+export  default  class SwapiService {
 
   _apiBase = 'https://swapi.dev/api'
 
@@ -84,4 +84,3 @@ fetch('https://swapi.dev/api/people/1/')
     console.log(body)
   })*/
 
-export default
