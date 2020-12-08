@@ -5,21 +5,21 @@ export default class RandomPlanet extends Component {
   render() {
     return (
       <div className="random-planet jumbotron rounded">
-        <img className="planet-image" src="https://images.wallpaperscraft.ru/image/planeta_zemlia_zvezdy_133535_8000x8000.jpg"/>
+        <img className="planet-image" src="https://starwars-visualguide.com/assets/img/planets/8.jpg"/>
         <div>
-          <h4>Имя планеты</h4>
+          <h4>Naboo</h4>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">
               <span className="term">Population</span>
-              <span>unknown</span>
+              <span>4,500,000,000</span>
             </li>
             <li className="list-group-item">
               <span className="term">Rotation Period</span>
-              <span>23</span>
+              <span>26 days</span>
             </li>
             <li className="list-group-item">
               <span className="term">Diameter</span>
-              <span>7200</span>
+              <span>12,120km</span>
             </li>
           </ul>
         </div>
